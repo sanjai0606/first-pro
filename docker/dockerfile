@@ -1,0 +1,4 @@
+FROM tomcat:latest
+MAINTAINER sanjai <sanjaisundharamoorthy06@gmailcom>
+EXPOSE 8080
+COPY ROOT.WAR  /usr/local/tomcat/webapps
